@@ -5,8 +5,8 @@ body, html {
 
 body {
 	display: flex;
-  flex-direction: column;
-	height: 100vh;
+  flex-direction: row;
+	height: 10vh;
 }
 
 .dark {
@@ -32,8 +32,8 @@ header, footer, nav {
 
 .container {
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
 	padding: 20px;
 	flex: 10;
 }
